@@ -7,6 +7,15 @@
 
 
 const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
+
+
+console.log(avengers.length);
+
 function findLongestWord(param) {
-  // insert code
+
+   
+
 }
+
+
+//.indexOf() >> devuelve el índice del primer elemento que coincide con el parametro proporcionado.
