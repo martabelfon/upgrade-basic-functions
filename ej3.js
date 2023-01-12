@@ -20,7 +20,7 @@ function sumAll(param) {
         
         
     }
-    console.log(count);
+    return console.log(count);
 }
 
 sumAll(numbers);
