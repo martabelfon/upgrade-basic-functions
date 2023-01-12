@@ -24,8 +24,8 @@ const duplicates = [
     for (let i = 0; i < duplicates.length; i++) {
       for (let a = i + 1; a < duplicates.length; a++) { 
         if (duplicates[i] === duplicates[a]) {
-          duplicates.splice(a,1);
-            a--;
+          duplicates.splice(i,1);
+            i--;
         }
       }  
     }
