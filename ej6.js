@@ -9,15 +9,27 @@ const duplicates = [
     'sushi',
     'pizza',
     'burger',
-    'potatoe',
+    'potatoe', 
     'pasta',
-    'ice-cream',
-    'pizza',
-    'chicken',
+    'ice-cream', 
+    'pizza', //ELIMINAR
+    'chicken', 
     'onion rings',
-    'pasta',
+    'pasta', //ELIMINAR
     'soda'
   ];
+
   function removeDuplicates(param) {
-    // insert code
+
+    for (let i = 0; i < duplicates.length; i++) {
+      for (let a = i + 1; a < duplicates.length; a++) { 
+        if (duplicates[i] === duplicates[a]) {
+          duplicates.splice(a,1);
+            a--;
+        }
+      }  
+    }
+    return console.log(duplicates);   
   }
+
+  removeDuplicates(duplicates);
