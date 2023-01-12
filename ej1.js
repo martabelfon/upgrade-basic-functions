@@ -4,14 +4,13 @@
 
 
 function sum(numberOne , numberTwo) {
-    
-    if (numberOne > numberTwo){
-        console.log(numberOne);
-    } else if (numberOne < numberTwo){
+    if (numberOne < numberTwo) {
         console.log(numberTwo)
+    } if (numberOne > numberTwo) { 
+        console.log(numberOne)
     } else {
-        console.log("Los dos números son iguales")
+        console.log ("Los numeros son iguales, numero 1 : " + numberOne + " numero 2: " + numberTwo)
     }
   }
 
-sum(70,70);
+  sum(50,50);
