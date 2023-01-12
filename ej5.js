@@ -5,6 +5,22 @@
 
 
 const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+
 function averageWord(param) {
-  // insert code
+  
+  let count = 0;
+
+  for (let i = 0; i < mixedElements.length; i++) {
+    
+    if (typeof mixedElements[i] === "string") {
+      count += mixedElements[i].length;
+    } else {
+      count += mixedElements[i];    
+    }
+    
+  }
+
+  return console.log(count);
+  
 }
+averageWord(mixedElements);
