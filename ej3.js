@@ -18,7 +18,6 @@ function sumAll(param) {
         
         count = count + numbers[i] ;
         
-        
     }
     return console.log(count);
 }
