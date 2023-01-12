@@ -5,6 +5,17 @@
 
 
 const numbers = [12, 21, 38, 5, 45, 37, 6];
+
 function average(param) {
-  // insert code
+  
+  let count = 0;
+
+  for (let i = 0; i < numbers.length; i++) {
+      count += numbers[i]; 
+  }
+  
+  return console.log(count / numbers.length);
+  
 }
+
+average(numbers);
