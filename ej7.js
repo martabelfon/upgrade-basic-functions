@@ -24,7 +24,7 @@ const nameFinder = [
     for (let i = 0; i < nameFinder.length; i++) {
      
         if (nameFinder[i] === buscarNombre) {
-          console.log(i);
+          console.log(buscarNombre + " está en la posición: " + i);
         } else {
           console.log(false);
         }
